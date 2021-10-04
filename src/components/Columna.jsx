@@ -9,6 +9,9 @@ const Columna = () => {
       <Imagen />
       <Imagen />
       <Imagen />
+      <Imagen />
+      <Imagen />
+      <Imagen />
     </div>
   );
 };
