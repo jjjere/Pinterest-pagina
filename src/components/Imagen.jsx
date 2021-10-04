@@ -1,10 +1,12 @@
-const alturas = [128, 300, 410, 250, 180, 340, 215, 320, 153, 260];
-
+//const alturas = [260, 153, 300];
+const imgs = ["./img/260.jpg", "./img/153.jpg", "./img/300.jpg"];
 const Imagen = () => {
-  const altura = alturas[Math.floor(Math.random() * alturas.length)];
+  const indexRnd = Math.floor(Math.random() * imgs.length);
+  const urlImg = imgs[indexRnd];
+  //const altura = alturas[indexRnd];
   return (
     <img
-      src={`https://picsum.photos/230/${altura}.jpg`}
+      src={urlImg}
       alt="texto"
       //width="230px"
       //height={altura}
