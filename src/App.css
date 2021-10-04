@@ -1,0 +1,29 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+/* Variables */
+:root {
+  --blanco: white;
+  --negro: black;
+  --gris: #efefef;
+  --fuente-principal: "Roboto", sans-serif;
+  --espaciado-vertical: 12px;
+  --espaciado-horizontal: 20px;
+  --tamanio-iconos: 24px;
+  --bordes-redondos: 24px;
+}
+
+/* Elinando estilos por defecto */
+button {
+  border: none;
+  outline-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  border: none;
+  outline-style: none;
+}

@@ -1,0 +1,70 @@
+/* Encabezados */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--espaciado-vertical) var(--espaciado-horizontal);
+}
+
+/* iconos */
+
+.icon {
+  padding: var(--espaciado-vertical);
+  border-radius: 50%;
+  background-color: var(--blanco);
+}
+
+.icon:hover {
+  background-color: var(--gris);
+}
+
+.icon.icon-profile > img {
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
+
+.icon > div {
+  background-position: center;
+  background-size: cover;
+  height: var(--tamanio-iconos);
+  width: var(--tamanio-iconos);
+}
+
+/* Botones */
+.btn {
+  font-family: var(--fuente-principal);
+  padding: var(--espaciado-vertical) var(--espaciado-horizontal);
+  border-radius: var(--bordes-redondos);
+  font-weight: bold;
+}
+
+.btn-black {
+  color: var(--blanco);
+  background-color: var(--negro);
+}
+
+.btn-white {
+  color: var(--negro);
+  background-color: var(--blanco);
+}
+
+.btn-white:hover {
+  background-color: var(--gris);
+}
+
+/* buscador */
+
+.form-search {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-family: var(--fuente-principal);
+  background-color: var(--gris);
+  border-radius: var(--bordes-redondos);
+  padding: var(--espaciado-vertical) var(--espaciado-horizontal);
+}
+
+.form-search > input {
+  background-color: transparent;
+}
