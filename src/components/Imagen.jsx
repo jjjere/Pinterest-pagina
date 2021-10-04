@@ -6,8 +6,8 @@ const Imagen = () => {
     <img
       src={`https://picsum.photos/230/${altura}.jpg`}
       alt="texto"
-      //width="230px"
-      //height={altura}
+      //width=230px
+      //height=200px
     />
   );
 };
