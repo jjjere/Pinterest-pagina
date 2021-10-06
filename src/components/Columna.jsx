@@ -1,4 +1,4 @@
-import "./Columna.css";
+import "./styles/Columna.css";
 import Imagen from "./Imagen";
 const Columna = () => {
   return (
